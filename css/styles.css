@@ -1,0 +1,50 @@
+.main-ul {
+    list-style: none;
+}
+
+.main-h2 {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    gap: 95px;
+}
+
+
+
+span {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.nav-list {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.logo-link {
+    color: rgb(111, 111, 241);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+}
