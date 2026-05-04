@@ -154,3 +154,18 @@ button {
     color: rgb(255, 255, 255);
     background-color: rgb(34, 201, 201);
 }
+
+.btn {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+}
