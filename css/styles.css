@@ -16,30 +16,41 @@ header {
     font-size: 20px;
 }
 
-.main-ul {
-    list-style: none;
-    gap: 10px;
+.start-main-ul {
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+}
+
+.main-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.main-li {
+    width: calc(33.333% - 27px);
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
 }
 
 .main-h2 {
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
     font-style: normal;
+    border-bottom: 4px solid orange;
 }
 
 .main-section {
     display: flex;
     justify-content: space-between;
 }
-
-/* 
-.header-container {
-    display: flex;
-    text-decoration: none;
-} */
 
 .navbar {
     display: flex;
@@ -75,7 +86,8 @@ span {
 }
 
 .nav-link:hover {
-  color: rgba(255, 102, 0, 0.849);
+    color: rgba(255, 102, 0, 0.849);
+    border-bottom: 3px solid orange;
 }
 
 .logo-link {
@@ -95,7 +107,16 @@ span {
     justify-content: center;
     text-align: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
+    font-family: "Montserrat", sans-serif;
+}
+
+.start-main-container h3 {
+    margin: 0;
+}
+
+.text {
+    display: flex;
     flex-direction: column;
 }
 
@@ -105,6 +126,7 @@ span {
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
 }
 
 footer {
@@ -112,10 +134,11 @@ footer {
     justify-content: space-between;
     padding: 30px 80px;
     border-top: 1px solid #ccc;
+    font-family: "Montserrat", sans-serif;
 }
 
 footer input::placeholder {
-    color: #bbb;
+    color: #999090;
     font-style: italic;
 }
 
